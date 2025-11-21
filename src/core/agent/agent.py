@@ -1,8 +1,8 @@
 from typing import List, Dict, Optional, Any
 from openai import OpenAI
 import json
-from src.ai_agent.providers.providerfactory import ProviderFactory
-from src.ai_agent import query_database, search_wikipedia
+from ai_agent.providers.providerfactory import ProviderFactory
+from ai_agent import query_database, search_wikipedia
 
 
 class Agent:
